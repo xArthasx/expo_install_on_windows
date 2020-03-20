@@ -1,6 +1,7 @@
 # Installing Expo on Windows
 
 ## WSL
+
 The best way to install expo on windows is by first installing WSL (Windows
 Subsystem for Linux).
 
@@ -29,6 +30,7 @@ Subsystem for Linux).
 
 To use node on our machine we will use nvm this will allow us to maintain
 different versions of node if needed.
+
 1. The best way to install it is by using the following command:
 
         curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
@@ -46,7 +48,7 @@ different versions of node if needed.
 
 Using our installed version of Node we can now install expo.
 
-        npm installl -g expo-cli
+        npm install -g expo-cli
 
 ![18.png](./images/18.png)
 ![19.png](./images/19.png)
